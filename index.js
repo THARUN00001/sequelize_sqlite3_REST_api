@@ -35,7 +35,7 @@ app.get('/users', async (req, res) => {
 
 app.get('/users/:id', async (req, res) => {
     try {
-        const user = await User.findOne({ where: { id: req.params.id } });
+        const user = await User.findOne({ where: { userId: req.params.id } });
         res.status(200).json(user);
     } catch (error) {
         res.status(400).json({ error: error.message });
@@ -52,7 +52,8 @@ app.put('/users/:id', async (req, res) => {
           if (user) {
             await User.update(userData, { where: { userId: req.params.id } });
           }
-        res.status(200).json(user);
+          const changeduser = await User.findOne({ where: { userId: req.params.id } });
+        res.status(200).json(changeduser);
     } catch (error) {
         res.status(400).json({ error: error.message });
     }
