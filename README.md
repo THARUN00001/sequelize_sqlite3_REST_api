@@ -66,7 +66,7 @@ The API uses the Sequelize ORM to manage the following entities:
 - SQLite
 - body-parser
 
-- ### Here is the [View Postman Collection Online]([URL_TO_VIEWER](https://bigatomic0.postman.co/workspace/Team-Workspace~3ea72060-bfd4-48bc-8731-38afd284c90b/collection/15567099-789a332b-e352-483f-9f77-8227f07630c2?action=share&creator=15567099)https://bigatomic0.postman.co/workspace/Team-Workspace~3ea72060-bfd4-48bc-8731-38afd284c90b/collection/15567099-789a332b-e352-483f-9f77-8227f07630c2?action=share&creator=15567099)
+- ### Here is the [View Postman Collection Online](https://bigatomic0.postman.co/workspace/Team-Workspace~3ea72060-bfd4-48bc-8731-38afd284c90b/collection/15567099-789a332b-e352-483f-9f77-8227f07630c2?action=share&creator=15567099) 
 
 
 ## Contributing
